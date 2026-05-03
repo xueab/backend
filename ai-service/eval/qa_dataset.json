@@ -1,0 +1,132 @@
+{
+  "description": "RAG 离线评估集，每条 query 标注期望命中的若干 source 文件。命中任一 expected 即算 hit。",
+  "version": 1,
+  "items": [
+    {
+      "query": "我最近老是睡不着，凌晨 3 点还在刷手机",
+      "expected": ["sleep-hygiene.md", "screen-balance.md"],
+      "topic": "habits"
+    },
+    {
+      "query": "一开会就心跳加速、手抖，是不是要疯了",
+      "expected": ["panic-attacks.md", "anxiety-coping.md"],
+      "topic": "emotions"
+    },
+    {
+      "query": "感觉对什么都没兴趣，连起床都很难",
+      "expected": ["depression-self-help.md"],
+      "topic": "emotions"
+    },
+    {
+      "query": "和男朋友吵架后总是忍不住翻旧账",
+      "expected": ["relationship-communication.md", "romantic-relationship-health.md"],
+      "topic": "relationships"
+    },
+    {
+      "query": "总觉得自己没本事，公司随时会发现我是个骗子",
+      "expected": ["impostor-syndrome.md", "self-esteem.md"],
+      "topic": "work-life"
+    },
+    {
+      "query": "工作连轴转两个月，现在完全不想动",
+      "expected": ["burnout-recovery.md", "stress-management.md"],
+      "topic": "work-life"
+    },
+    {
+      "query": "被领导当众骂哭，回家很委屈",
+      "expected": ["workplace-bullying.md", "workplace-mental-health.md"],
+      "topic": "work-life"
+    },
+    {
+      "query": "考研冲刺一个月，背书背不进去焦虑得不行",
+      "expected": ["academic-stress.md", "anxiety-coping.md"],
+      "topic": "work-life"
+    },
+    {
+      "query": "明明很累却躺在床上一直在反复想白天的事",
+      "expected": ["sleep-hygiene.md", "anxiety-coping.md"],
+      "topic": "habits"
+    },
+    {
+      "query": "失恋两个月还是放不下，看到他朋友圈就难受",
+      "expected": ["breakup-recovery.md"],
+      "topic": "relationships"
+    },
+    {
+      "query": "感觉自己被对象 PUA 了，越来越不自信",
+      "expected": ["gaslighting-recognition.md", "romantic-relationship-health.md"],
+      "topic": "relationships"
+    },
+    {
+      "query": "回家被催婚催生，连过年都不想回去",
+      "expected": ["holiday-and-family-gathering.md", "family-conflict.md"],
+      "topic": "relationships"
+    },
+    {
+      "query": "朋友最近情绪很低，作为朋友我能做点什么",
+      "expected": ["helping-friend.md"],
+      "topic": "relationships"
+    },
+    {
+      "query": "刷短视频根本停不下来，每天熬到两三点",
+      "expected": ["screen-balance.md", "addictive-behaviors.md"],
+      "topic": "habits"
+    },
+    {
+      "query": "总是把事情拖到最后一刻才做",
+      "expected": ["procrastination.md", "perfectionism.md"],
+      "topic": "habits"
+    },
+    {
+      "query": "经济压力很大，每次看银行卡余额就焦虑",
+      "expected": ["financial-anxiety.md", "anxiety-coping.md"],
+      "topic": "work-life"
+    },
+    {
+      "query": "总是控制不住朝家人发火事后又很内疚",
+      "expected": ["anger-management.md", "shame-and-guilt.md"],
+      "topic": "emotions"
+    },
+    {
+      "query": "已经哭了三个月，奶奶走的事过不去",
+      "expected": ["grief-and-loss.md"],
+      "topic": "emotions"
+    },
+    {
+      "query": "总忍不住反复检查门锁，明知道没必要",
+      "expected": ["ocd-tendencies.md"],
+      "topic": "emotions"
+    },
+    {
+      "query": "新闻里全是坏事，一刷就胸闷",
+      "expected": ["news-cycle-anxiety.md"],
+      "topic": "emotions"
+    },
+    {
+      "query": "想找心理咨询师但不知道第一次见面要说什么",
+      "expected": ["therapy-first-session.md"],
+      "topic": "trauma-care"
+    },
+    {
+      "query": "医生开了 SSRI，吃药会上瘾吗",
+      "expected": ["psych-medication-basics.md"],
+      "topic": "trauma-care"
+    },
+    {
+      "query": "感觉孤独，下班后完全不想见人",
+      "expected": ["loneliness-coping.md", "social-anxiety.md"],
+      "topic": "emotions"
+    },
+    {
+      "query": "对自己身材一直不满意，照镜子都难受",
+      "expected": ["body-image-acceptance.md"],
+      "topic": "self-identity"
+    },
+    {
+      "query": "我真的撑不下去了，想结束这一切",
+      "expected": ["crisis-resources.md"],
+      "topic": "trauma-care",
+      "note": "危机词测试：期望 pipeline 走 crisis 兜底"
+    }
+  ]
+}
